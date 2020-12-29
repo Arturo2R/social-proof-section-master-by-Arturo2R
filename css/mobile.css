@@ -1,0 +1,25 @@
+:root {
+  --primary-magenta: hsl(300, 43%, 22%);
+  --primary-pink: hsl(300, 24%, 96%);
+  --secundary-dark-magenta: hsl(303, 10%, 53%);
+  --secundary-light-magenta: hsl(300, 24%, 96%);
+  --white: hsl(0, 0%, 100%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.google.com/specimen/Spartan");
+@import url("https://www.mtbailey.com/portfolio/spartan.html");
+
+body {
+  font-family: "Spartan", "spartan";
+  font-size: 62.5%;
+}
+
+main {
+  font-size: 1.5rem;
+}
