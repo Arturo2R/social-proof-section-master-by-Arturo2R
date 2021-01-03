@@ -1,6 +1,6 @@
 :root {
   --primary-magenta: hsl(300, 43%, 22%);
-  --primary-pink: hsl(300, 24%, 96%);
+  --primary-pink: hsl(333, 80%, 67%);
   --secundary-dark-magenta: hsl(303, 10%, 53%);
   --secundary-light-magenta: hsl(300, 24%, 96%);
   --white: hsl(0, 0%, 100%);
@@ -51,4 +51,94 @@ main {
   font-size: 1.5rem;
   line-height: 2rem;
   color: var(--secundary-dark-magenta);
+}
+
+.reviews {
+  margin: 2rem 0;
+  padding: 1rem;
+  display: block;
+}
+.review {
+  margin-top: 1rem;
+  padding: 1rem;
+  width: 100%;
+  max-width: 688px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--secundary-light-magenta);
+  border-radius: 10px;
+}
+.review__star {
+  height: 1rem;
+  width: 6rem;
+  margin-bottom: 0.5rem;
+  background-image: url("../images/icon-star.svg");
+  background-size: contain;
+  background-repeat: space;
+}
+
+.review__name {
+  margin-top: 0.5rem;
+  font-weight: bold;
+  color: var(--primary-magenta);
+}
+
+.opinion {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2rem 0;
+  width: 100%;
+}
+.opinion__container {
+  width: 100%;
+  height: auto;
+  padding: 4rem;
+  margin: 1rem 0;
+  border-radius: 0.8rem;
+  background-color: var(--primary-magenta);
+}
+.opinion__user {
+  margin-bottom: 3rem;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.opinion__photo {
+  order: 0;
+  flex-basis: 3rem;
+  width: 3rem;
+  height: 3rem;
+  background-image: url("../images/image-colton.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+}
+.user__photo--1 {
+  background-image: url("../images/image-irene.jpg");
+}
+.user__photo--2 {
+  background-image: url("../images/image-anne.jpg");
+}
+.user__name {
+  margin-left: 1rem;
+  font-weight: bold;
+  color: var(--white);
+}
+.user__name--status {
+  margin-top: 0.5rem;
+  font-weight: 400;
+  color: var(--primary-pink);
+}
+
+.description__p--opinion {
+  width: 100%;
+  font-size: 1.3rem;
+  font-weight: 400;
+  text-align: left;
+  color: var(--white);
 }
