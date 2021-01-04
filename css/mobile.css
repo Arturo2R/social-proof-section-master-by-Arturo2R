@@ -26,7 +26,7 @@ main {
 
 .description {
   width: 100%;
-  max-width: 320px;
+  max-width: 420px;
   display: block;
   background-image: url("../images/bg-pattern-top-mobile.svg");
   background-size: cover;
@@ -141,4 +141,8 @@ main {
   font-weight: 400;
   text-align: left;
   color: var(--white);
+}
+
+footer {
+  background-image: url("../images/bg-pattern-bottom-mobile.svg");
 }
